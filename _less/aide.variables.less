@@ -1,0 +1,168 @@
+
+@brand-white:             #ffffff;
+@brand-light:             #f9f7f7;
+@brand-dark:              #242828;
+@brand-black:             #0C0D0D;
+
+@brand-primary:           #e8cc76;
+@brand-info:              #673ab7;
+@brand-success:           #f8beca;
+@brand-warning:           #fddc66;
+@brand-danger:            #f35950;
+
+@array_brand:             white, light, dark, black,
+                          primary, info, success, warning, danger;
+
+
+@body-bg:                 @brand-white;
+@text-color:              @brand-dark;
+@text-muted:              #867676;
+
+@link-color:              @text-color;
+@link-hover-color:        @link-color;
+
+@font-family-sans-serif:  "Miso", san-serif;
+@font-family-serif:       "DancingScriptOTRegular", serif;
+@font-family-base:        @font-family-sans-serif;
+//** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
+@font-family-monospace:   Menlo, Monaco, Consolas, "Inconsolata", monospace;
+
+@font-size-base:          14px;
+@font-size-lg:            ceil((@font-size-base * 1.50));  // ~21px
+@font-size-md:            ceil((@font-size-base * 1.14));  // ~16px
+@font-size-sm:            ceil((@font-size-base * 0.85));  // ~12px
+@font-size-xs:            ceil((@font-size-base * 0.71));  // ~10px
+
+@font-size-h1:            floor((@font-size-base * 2.6));  // ~36px
+@font-size-h2:            floor((@font-size-base * 2.15)); // ~30px
+@font-size-h3:            ceil((@font-size-base * 1.7));   // ~24px
+@font-size-h4:            ceil((@font-size-base * 1.25));  // ~18px
+@font-size-h5:            @font-size-base;
+@font-size-h6:            ceil((@font-size-base * 0.85));  // ~12px
+
+@line-height-base:        1.428571429; // 20/14
+@line-height-computed:    floor((@font-size-base * @line-height-base)); // ~23px
+
+@letter-spacing-base:     0.1em;
+
+@headings-font-family:    @font-family-sans-serif;
+@headings-font-weight:    700;
+@headings-line-height:    1.1;
+@headings-color:          inherit;
+
+@headings-small-color:    @brand-light;
+
+@border-radius-base:      0;
+@border-color:            rgba(0,0,0,0.12);
+
+@nav-bg:                  transparent;
+@nav-active:              darken(@brand-light, 3%);
+
+@table-border-color:      lighten(@border-color, 4%);
+@table-striped-color:     lighten(@brand-light, 4.5%);
+
+// aide > wrapper, padding, margin
+@case-size-xxs:           3px;
+@case-size-xs:            5px;
+@case-size-sm:            10px;
+@case-size-base:          15px; //base
+@case-size-md:            20px;
+@case-size-lg:            25px;
+@case-size-xl:            30px;
+@case-size-xxl:           50px;
+
+// buttons
+@btn-default-color:       @text-color;
+@btn-default-bg:          lighten(@brand-light, 5%);
+@btn-default-border:      @border-color;
+@btn-border-radius:       @border-radius-base;
+
+// arrow
+@arrow-width:             8px;
+@arrow-color:             @brand-white;
+@arrow-outer-width:       (@arrow-width + 1);
+@arrow-outer-color:       rgba(0,0,0,0.1);
+
+// i-switch
+@switch-width:            35px;
+@switch-height:           20px;
+
+@switch-xs-width:         20px;
+@switch-xs-height:        12px;
+
+@switch-sm-width:         25px;
+@switch-sm-height:        15px;
+
+@switch-md-width:         40px;
+@switch-md-height:        24px;
+
+@switch-lg-width:         50px;
+@switch-lg-height:        30px;
+
+@switch-xl-width:         60px;
+@switch-xl-height:        35px;
+
+@switch-xxl-width:        90px;
+@switch-xxl-height:       55px;
+
+// i-checks
+@checks-width:            20px;
+@checks-height:           20px;
+
+@checks-xs-width:         12px;
+@checks-xs-height:        12px;
+
+@checks-sm-width:         16px;
+@checks-sm-height:        16px;
+
+@checks-md-width:         24px;
+@checks-md-height:        24px;
+
+@checks-lg-width:         30px;
+@checks-lg-height:        30px;
+
+@checks-xl-width:         40px;
+@checks-xl-height:        40px;
+
+@checks-xxl-width:        50px;
+@checks-xxl-height:       50px;
+
+// shapes
+@slash: e('/');
+@ds: 3px; //default shape
+
+@shape-default:           @ds;
+
+@shape-square:            @ds;
+@shape-square-2:          12%;
+@shape-square-3:          22%;
+@shape-square-4:          30%;
+
+@shape-round:             50%;
+@shape-round-2:           45%;
+@shape-round-3:           50% 50% 50% 50% @slash 60% 40% 60% 40%;
+@shape-round-4:           50% 50% 50% 50% @slash 40% 60% 40% 60%;
+
+@shape-drop:              50% @ds 50% 50%;
+@shape-drop-2:            @ds 50% 50% 50%;
+@shape-drop-3:            50% 50% @ds 50%;
+@shape-drop-4:            50% 50% 50% @ds;
+
+@shape-uoda:              @ds @ds 50% 50%;
+@shape-uoda-2:            50% 50% @ds @ds;
+@shape-uoda-3:            50% @ds @ds 50%;
+@shape-uoda-4:            @ds 50% 50% @ds;
+
+@shape-slope:             50% 50% 40% 40% @slash 30% 30% 70% 70%;
+@shape-slope-2:           70% 40% 40% 70% @slash 45% 50% 50% 45%;
+@shape-slope-3:           40% 40% 50% 50% @slash 70% 70% 30% 30%;
+@shape-slope-4:           40% 70% 70% 40% @slash 50% 45% 45% 50%;
+
+
+
+@array_shapes:            default,
+                          square, square-2, square-3, square-4,
+                          round, round-2, round-3, round-4,
+                          drop, drop-2, drop-3, drop-4,
+                          uoda, uoda-2, uoda-3, uoda-4,
+                          slope, slope-2, slope-3, slope-4;

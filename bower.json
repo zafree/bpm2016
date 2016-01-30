@@ -1,0 +1,34 @@
+{
+  "name": "bpm2016",
+  "version": "1.0.0",
+  "description": "BUBT Proressionals Meetup 2016",
+  "keywords": [
+    "BUBT",
+    "Professionals",
+    "Meetup",
+    "BUBT Proressionals Meetup 2016",
+    "Zafree"
+  ],
+  "authors": [
+    "Zafree"
+  ],
+  "license": "MIT",
+  "url": "https://github.com/zafree/bootaide/blob/master/LICENSE",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "jquery.browser": "https://github.com/gabceb/jquery-browser-plugin.git#~0.1.0",
+    "bootstrap": "~3.3.5",
+    "jquery.scrollto.js": "https://github.com/yckart/jquery.scrollto.js.git#~0.0.1",
+    "headroom.js": "~0.7.0",
+    "font-awesome": "~4.4.0",
+    "skrollr": "https://github.com/Prinzhorn/skrollr.git#~0.6.30",
+    "dancing-script": "~1.1.0",
+    "open-sans-fontface": "~1.4.2",
+    "zoom.js": "https://github.com/fat/zoom.js.git#~0.0.1"
+  }
+}

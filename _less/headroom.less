@@ -1,0 +1,149 @@
+.headroom {
+  .navbar-brand {
+    position: relative;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 52px;
+    padding: 0;
+    text-transform: uppercase;
+    letter-spacing: @letter-spacing-base;
+    //background-color: #cccccc;
+    overflow: hidden;
+    span {
+      position: relative;
+      float: left;
+      //height: 34px;
+      //line-height: 34px;
+      //top: 9px;
+      left: -2px;
+      padding-left: 2px;
+      //background-color: #efefef;
+      transition: all 1s ease 0s;
+      overflow: hidden;
+      &.hastag {width: 0; left: 0; padding-left: 0}
+      &.magic-1 {width: 46px}
+      &.magic-2 {width: 148px}
+      &.magic-3 {width: 68px}
+
+      @media screen and (max-width: 445px) {
+        &.hastag {width: 18px}
+        &.magic-1 {width: 0}
+        &.magic-2 {width: 0}
+        &.magic-3 {width: 0}
+      }
+
+    }
+    @media screen and (max-width: 445px) {
+      margin-left: 15px;
+    }
+  }
+
+  &.headroom--not-top {
+    .navbar-brand {
+      left: 0;
+      span {
+        //color: #ffffff;
+        &.hastag {width: 18px}
+        &.magic-1 {width: 2px}
+        &.magic-2 {width: 2px}
+        &.magic-3 {width: 2px}
+      }
+
+    }
+  }
+}
+
+
+//Slide
+/*@-webkit-keyframes slideDown {
+  0% {
+    -webkit-transform: translateY(-100%);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+  }
+}
+
+@-moz-keyframes slideDown {
+  0% {
+    -moz-transform: translateY(-100%);
+  }
+
+  100% {
+    -moz-transform: translateY(0);
+  }
+}
+
+@-o-keyframes slideDown {
+  0% {
+    -o-transform: translateY(-100%);
+  }
+
+  100% {
+    -o-transform: translateY(0);
+  }
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animated.slideDown {
+  -webkit-animation-name: slideDown;
+  -moz-animation-name: slideDown;
+  -o-animation-name: slideDown;
+  animation-name: slideDown;
+}
+
+@-webkit-keyframes slideUp {
+  0% {
+    -webkit-transform: translateY(0);
+  }
+
+  100% {
+    -webkit-transform: translateY(-100%);
+  }
+}
+@-moz-keyframes slideUp {
+  0% {
+    -moz-transform: translateY(0);
+  }
+
+  100% {
+    -moz-transform: translateY(-100%);
+  }
+}
+@-o-keyframes slideUp {
+  0% {
+    -o-transform: translateY(0);
+  }
+
+  100% {
+    -o-transform: translateY(-100%);
+  }
+}
+@keyframes slideUp {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+.animated.slideUp {
+  -webkit-animation-name: slideUp;
+  -moz-animation-name: slideUp;
+  -o-animation-name: slideUp;
+  animation-name: slideUp;
+}
+*/

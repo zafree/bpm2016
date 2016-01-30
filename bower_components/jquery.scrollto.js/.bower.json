@@ -1,0 +1,14 @@
+{
+  "name": "jquery.scrollto.js",
+  "homepage": "https://github.com/yckart/jquery.scrollto.js",
+  "version": "0.0.1",
+  "_release": "0.0.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.1",
+    "commit": "735d42c556dfb67e54e46afac63ed1d554b48f54"
+  },
+  "_source": "https://github.com/yckart/jquery.scrollto.js.git",
+  "_target": "~0.0.1",
+  "_originalSource": "https://github.com/yckart/jquery.scrollto.js.git"
+}

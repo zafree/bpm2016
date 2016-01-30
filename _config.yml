@@ -1,0 +1,28 @@
+# Site settings
+title:              BUBT Professionals Meetup 2016
+
+author:             Zafree
+author-email:       zafree@live.com
+author-site:        http://zafree.github.io
+
+firstname:          Foysal
+lastname:           Zafree
+gravatar:           b7e525f3c99cf35dbe137a62de076a44
+
+twitter_username:   foysalzafree
+facebook_username:  zafree
+github_username:    zafree
+
+# Dependencies
+markdown:           kramdown
+highlighter:        pygments
+
+# Permalinks
+permalink:          pretty
+
+# Server
+host:               0.0.0.0
+port:               9001
+baseurl:            /bpm2016/ # the subpath of your site, e.g. /bpm2016/
+url:                http://zafree.github.io/bpm2016 # the base hostname & protocol for your site
+encoding:           UTF-8

@@ -1,0 +1,18 @@
+<head>
+  <meta charset="utf-8">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="viewport" content="width=device-width">
+  <link rel="shortcut icon" href="/favicon.ico">
+
+  <link rel="stylesheet" href="{{ site.baseurl }}bower_components/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="{{ site.baseurl }}bower_components/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="{{ site.baseurl }}assets/font/miso.min.css" />
+  <link rel="stylesheet" href="{{ site.baseurl }}bower_components/dancing-script/css/dancing-script.min.css" />
+  <link rel="stylesheet" href="{{ site.baseurl }}bower_components/open-sans-fontface/open-sans.css" />
+  <link rel="stylesheet" href="{{ site.baseurl }}bower_components/zoom.js/css/zoom.css" />
+  <link rel="stylesheet" href="{{ site.baseurl }}dist/css/bpm2016.min.css" />
+
+  <script src="{{ site.baseurl }}assets/js/modernizr.custom.js"></script>
+
+</head>
