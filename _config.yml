@@ -23,6 +23,6 @@ permalink:          pretty
 # Server
 host:               0.0.0.0
 port:               9001
-baseurl:            /bpm2016/ # the subpath of your site, e.g. /bpm2016/
+baseurl:            # the subpath of your site, e.g. /bpm2016/
 url:                http://zafree.github.io/bpm2016 # the base hostname & protocol for your site
 encoding:           UTF-8
