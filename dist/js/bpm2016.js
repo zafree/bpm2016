@@ -5,6 +5,13 @@
 
 $(document).ready(function() {
 
+  // preloader
+  $(window).load(function(){
+    setTimeout(function(){
+      $('#preloader').fadeOut(500,function(){});
+    }, 4000);
+	});
+  
   // bootstrap tooltip option
   $('[data-toggle="tooltip"]').tooltip();
 

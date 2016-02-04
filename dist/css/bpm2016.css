@@ -4526,6 +4526,15 @@ div.cs-select::before {
 .cs-select .cs-selected span::after {
   content: '';
 }
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #fff;
+  z-index: 99999;
+}
 #top-nav {
   -webkit-transition: all 0.2s linear 0s;
   -o-transition: all 0.2s linear 0s;
@@ -4695,7 +4704,7 @@ a.hover:hover::before {
   height: 80px;
   vertical-align: middle;
   border-top-color: #867676;
-  margin: 30px auto -30px;
+  margin: 10px auto -30px;
   z-index: -1;
 }
 .signal-wave::before,
