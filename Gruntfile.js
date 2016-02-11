@@ -57,6 +57,8 @@ module.exports = function(grunt) {
               'bower_components/jquery.browser/dist/jquery.browser.min.js',
               'bower_components/headroom.js/dist/headroom.min.js',
               'bower_components/zoom.js/dist/zoom.min.js',
+              'bower_components/tether/dist/js/tether.min.js',
+              'bower_components/tether-drop/dist/js/drop.min.js',
               'assets/js/classie.js',
               'assets/js/selectFx.js'],
 	      dest: 'dist/js/plugins.js'

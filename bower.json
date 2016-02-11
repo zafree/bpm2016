@@ -29,6 +29,8 @@
     "skrollr": "https://github.com/Prinzhorn/skrollr.git#~0.6.30",
     "dancing-script": "~1.1.0",
     "open-sans-fontface": "~1.4.2",
-    "zoom.js": "https://github.com/fat/zoom.js.git#~0.0.1"
+    "zoom.js": "https://github.com/fat/zoom.js.git#~0.0.1",
+    "simple-line-icons": "~2.2.3",
+    "tether-drop": "~1.4.2"
   }
 }
