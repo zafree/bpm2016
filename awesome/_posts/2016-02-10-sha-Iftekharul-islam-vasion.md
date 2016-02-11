@@ -1,12 +1,12 @@
 ---
 serial:     50
 
-name:       Iftekharul Vasion
-position:   profession
-agency:     company
+name:       Sha Iftekharul Islam Vasion
+position:   Student
+agency:     BUBT
 agencySite:
 
-img:        imgs/awesome/iftekharul-vasion.jpg
+img:        imgs/awesome/sha-Iftekharul-islam-vasion.jpg
 
 website:    
 twitter:    
@@ -17,5 +17,5 @@ dribbble:
 behance:    
 flickr:     
 instagram:  
-mailto:     
+mailto:     ifte.vasion@gmail.com
 ---

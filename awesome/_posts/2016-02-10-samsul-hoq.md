@@ -2,20 +2,20 @@
 serial:     61
 
 name:       Samsul Hoq
-position:   profession
-agency:     company
-agencySite:
+position:   Apps Developer
+agency:     NextDot
+agencySite: http://www.nextdot.com.au/
 
 img:        imgs/awesome/samsul-hoq.jpg
 
 website:    
-twitter:    
+twitter:    SamsulHoque8
 facebook:   samsul.hoq
-github:     
-codepen:    
-dribbble:   
+github:     samsulhoque
+codepen:    samsulhoq
+dribbble:   samsulhoq
 behance:    
-flickr:     
+flickr:     samsulhoq
 instagram:  
-mailto:     
+mailto:     samsulhoque.prog@gmail.com
 ---

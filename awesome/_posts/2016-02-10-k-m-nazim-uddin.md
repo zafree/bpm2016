@@ -1,10 +1,10 @@
 ---
 serial:     56
 
-name:       K M Nazim Uddin
-position:   profession
-agency:     company
-agencySite:
+name:       K.M. Nazim Uddin
+position:   Jr. Software Engineer
+agency:     Logic Software Ltd
+agencySite: http://www.logicsoftbd.com/
 
 img:        imgs/awesome/k-m-nazim-uddin.jpg
 

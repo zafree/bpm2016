@@ -1,15 +1,15 @@
 ---
 serial:     58
 
-name:       Mak Reza
+name:       Mahamudul Karim Mazumder
 position:   Java Developer
 agency:     Newgen Technology Limited
 agencySite: http://newgen-bd.com/
 
-img:        imgs/awesome/mak-reza.jpg
+img:        imgs/awesome/mahamudul-karim-mazumder.jpg
 
 website:    
-twitter:    
+twitter:    immakreza
 facebook:   1618993308
 github:     
 codepen:    
@@ -17,5 +17,5 @@ dribbble:
 behance:    
 flickr:     
 instagram:  
-mailto:     
+mailto:     makreza6@gmail.com
 ---

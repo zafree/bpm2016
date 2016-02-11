@@ -3,7 +3,7 @@ serial:     6
 
 name:       Sanjida Shima
 position:   Physicist
-agency:     Student
+agency:     undefined
 agencySite:
 
 img:        imgs/awesome-guest/sanjida-shima.jpg

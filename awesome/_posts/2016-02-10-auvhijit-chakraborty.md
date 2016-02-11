@@ -1,12 +1,12 @@
 ---
 serial:     47
 
-name:       Auvhijit Chakraborty
+name:       Avjit Chakraborty
 position:   Lead Softaware Developer & Trainer
 agency:     Coloriva & ICT Ministry
 agencySite: http://www.ictd.gov.bd/
 
-img:        imgs/awesome/auvhijit-chakraborty.jpg
+img:        imgs/awesome/avjit-chakraborty.jpg
 
 website:    http://coloriva.com/
 twitter:    
