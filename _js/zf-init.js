@@ -4,7 +4,7 @@ $(document).ready(function() {
   $(window).load(function(){
     setTimeout(function(){
       $('#preloader').fadeOut(500,function(){});
-    }, 4000);
+    }, 100);
 	});
   
   // bootstrap tooltip option
